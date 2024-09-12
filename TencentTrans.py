@@ -83,7 +83,7 @@ try:
     # 打印输出原文和译文
     print("原文：",params['SourceText'])
     print(' ')
-    print("译文：\n",dictResp['TargetText'])
+    print("译文：\n",dictResp['_TargetText'])
     print(' ')
 
 # 异常处理
